@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500&family=Merriweather&family=Montserrat&family=Permanent+Marker&family=Sacramento&display=swap" rel="stylesheet">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Wedding Invitation</title>
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+</head>
+<body class="">
+ 
+  <header>
+    <!-- SECTION NAV BAR -->
+    <section>
+      <div class="row navbar clear-nav fixed-bottom shadow rounded text-light text-center text-shadow">
+          <a class="col-3 unlink unlink:hover" href="#home">Home</a>
+          <a class="col-3 unlink unlink:hover" href="#main">Jane & John</a>
+          <a class="col-3 unlink unlink:hover" href="#wedding">Wedding</a>
+          <a class="col-3 unlink unlink:hover" href="#rsvp">RSVP</a>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION HERO IMG -->
+    <section id="home" class="container-fluid text-center">
+      <div class="hero-img row align-items-center text-center">
+          <div class="col-12 text-shadow text-light">
+            <h1 class="py-4">Jane & John</h1>
+             <h3 class="py-1"> Are getting married</h3>
+             <h3>23/02/2023</h3> 
+            </div>
+
+      </div>
+    </section>
+  </header>
+  <!-- SECTION MAIN -->
+  <main>
+    <section id="main" class="text-shadow container-fluid text-center justify-content-center">
+      <div class="row">
+        <div class="col-12 my-5">
+          <h2 class="">Jane & Jon</h2>
+        </div>
+        <div class="col-12">
+          <img class="img-fluid width rounded-3" src="https://images.unsplash.com/photo-1551963319-13ff32a5acd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+        </div>
+        <!-- NOTE DISPLAY MOBILE -->
+        <div class="pt-5 d-md-none">
+          <p>We're getting married! Please come, we will have food and drinks. Please tell us if you're bringing any extra guest. Please no children, or pets.</p>
+        </div>
+        <!-- NOTE DISPLAY DESKTOP -->
+        <div class="d-none d-md-block col-md-12 my-5">
+          <p>Always remember in the jungle there’s a lot of they in there, after you overcome they, you will make it to paradise. The other day the grass was brown, now it’s green because I ain’t give up. Never surrender. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. The key to success is to keep your head above the water, never give up. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm.
+
+            We don’t see them, we will never see them. We the best. Watch your back, but more importantly when you get out the shower, dry your back, it’s a cold world out there. How’s business? Boomin. They key is to have every key, the key to open every door. Fan luv. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! They key is to have every key, the key to open every door.</p>
+
+          <button class="btn btn-dark my-5 py-2 px-3">
+            Wedding Details
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION INVITATION -->
+    <section class="container-fluid text-center">
+      <div class="row invitation-img text-light align-items-center text-shadow">
+          <div class="col">
+            <h1 class="pb-5">You're Invited</h1>
+            <h4 class="pt-1">Of course.</h4>
+          </div>
+      </div>
+    </div>
+    </section>
+    <!--SECTION THE WEDDING -->
+    <section id="wedding" class="justify-text-center text-center">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="my-5 text-shadow">THE WEDDING</h2>
+        </div>
+        <div class="col-12 mx-2">
+          <img class="img-fluid rounded-3" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="">
+        </div>
+      </div>
+    </section>
+    <!--SECTION RSVP -->
+    <section id="rsvp" class="text-center container-fluid text-shadow">
+      <div class="row py-5 when-color">
+        <div class="col-md-6">
+            <h2>When</h2>
+            <p>Wedding Ceremony - 2:00pm</p>
+            <p>Reception & Dinner - 5:00pm</p>
+        </div>
+        <div class="col-md-6">
+          <h2>Where</h2>
+          <p>Some place, an address</p>
+          <p>Some where, some address</p>
+        </div>
+      </div>
+      <div class="row py-5 rsvp">
+        <div class="col">
+          <H2 class="py-1"> HOPE YOU SHOW UP!</H2>
+          <P class="py-1">Kindly Response By August 2023</P>
+          <button class="btn rsvp-btn px-5 text-white">RSVP</button>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="row bg-dark text-center text-light pb-4">
+      <div class="col">
+        <p>
+          Powered Codeworks
+        </p>
+      </div>
+    </div>
+
+
+
+
+  </footer>
+
+  
+</body>
+</html>

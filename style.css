@@ -1,0 +1,79 @@
+body {
+  background-color: #f1e0e1;
+  color: #888787;
+  font-family: 'Cormorant SC', serif;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px
+}
+
+p {
+  font-size: 20px
+}
+
+.hero-img {
+  background-image: url(https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.invitation-img {
+  background-image: url(https://images.unsplash.com/photo-1612619733782-0aab4b31d10f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=758&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 100VH;
+}
+
+.when-color {
+  background-color: #f6f2f2;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.text-shadow-two {
+  text-shadow: 1px 1px 25px #000000;
+}
+
+.rsvp {
+  background-color: #ffddde;
+}
+
+.rsvp-btn {
+  background-color: #f9817a;
+}
+
+.width {
+  width: 95%;
+}
+
+.clear-nav {
+  background: rgba(255, 255, 255, .01);
+  border: 1px solid rgb(255, 255, 255 , .3);
+  backdrop-filter: blur(5px);
+}
+
+.page {
+  height: 100vh;
+}
+
+.unlink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.unlink:hover {
+  color: inherit;
+  text-decoration: none;
+}
